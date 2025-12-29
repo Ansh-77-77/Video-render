@@ -1,0 +1,12 @@
+{
+  "name": "ai-video-renderer",
+  "private": true,
+  "scripts": {
+    "render": "remotion render index.ts Video out.mp4 --fps=30 --width=1080 --height=1920"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
+  }
+}
